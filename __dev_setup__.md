@@ -55,7 +55,7 @@ yarn add express request-promise-native cors
 ```
 
 ```bash
-npm install request
+npm install -g request
 ```
 
 ## Execute following command after you have edited code.
