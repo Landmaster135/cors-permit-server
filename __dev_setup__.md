@@ -2,6 +2,8 @@
 
 ## Install tools for develop functions.
 
+Open terminal.
+
 ```bash
 mkdir cloudfunctions
 ```
