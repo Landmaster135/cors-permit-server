@@ -32,7 +32,7 @@ Reference [here](https://www.to-r.net/media/note-rss/) ...
 firebase init
 ```
 
-- Functions
+- Functions: Configure a Cloud Functions directory and its files
 - Use an existing project
 - (project)
 - Javascript or Typescript
