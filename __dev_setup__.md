@@ -15,7 +15,7 @@ npm install -g npm@8.4.0
 ```
 
 ```bash
-npm install firebase-tools
+npm install -g firebase-tools
 ```
 
 ## Login Firebase account
