@@ -35,9 +35,16 @@ reference [here](https://www.to-r.net/media/note-rss/) ...
 - Firebase initialization complete!
 
 ```bash
-
+sudo npm install -g yarn
 ```
 
+```bash
+yarn -v
+```
+
+```bash
+yarn add express request-promise-native cors
+```
 
 ```bash
 
@@ -51,8 +58,13 @@ reference [here](https://www.to-r.net/media/note-rss/) ...
 
 ```
 
+```bash
+
+```
 
 ```bash
 
 ```
+
+
 
