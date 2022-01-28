@@ -54,14 +54,14 @@ yarn -v
 yarn add express request-promise-native cors
 ```
 
+```bash
+npm install request
+```
+
 ## Execute following command after you have edited code.
 
 ```bash
 firebase deploy
-```
-
-```bash
-
 ```
 
 ```bash
