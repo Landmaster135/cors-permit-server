@@ -24,6 +24,8 @@ firebase login
 firebase init
 ```
 
+reference [here](https://www.to-r.net/media/note-rss/) ...
+
 ```bash
 
 ```
