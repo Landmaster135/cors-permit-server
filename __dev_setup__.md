@@ -65,11 +65,11 @@ npm install request
 ## Execute following command after you have edited code.
 
 ```bash
-firebase deploy
+cd ..
 ```
 
 ```bash
-
+firebase deploy
 ```
 
 ```bash
