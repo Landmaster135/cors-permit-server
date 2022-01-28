@@ -64,7 +64,9 @@ npm install request
 
 ## Execute following command after you have edited code.
 
+:::note warn
 Raise your project plan to "Blaze" before you deploy app.
+:::
 
 ```bash
 cd ..
