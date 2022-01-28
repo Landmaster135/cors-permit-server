@@ -1,5 +1,7 @@
 # Setup flow
 
+## Install tools for develop functions.
+
 ```bash
 mkdir cloudfunctions
 ```
@@ -16,15 +18,19 @@ sudo npm install -g npm@8.4.0
 sudo npm install -g firebase-tools
 ```
 
+## Login Firebase account
+
 ```bash
 firebase login
 ```
 
+## Initialize Firebase
+
+Reference [here](https://www.to-r.net/media/note-rss/) ...
+
 ```bash
 firebase init
 ```
-
-reference [here](https://www.to-r.net/media/note-rss/) ...
 
 - Functions
 - Use an existing project
@@ -33,6 +39,8 @@ reference [here](https://www.to-r.net/media/note-rss/) ...
 - y
 - Y
 - Firebase initialization complete!
+
+## Setup modules for web-app.
 
 ```bash
 sudo npm install -g yarn
@@ -46,8 +54,10 @@ yarn -v
 yarn add express request-promise-native cors
 ```
 
-```bash
+## Execute following command after you have edited code.
 
+```bash
+firebase deploy
 ```
 
 ```bash
