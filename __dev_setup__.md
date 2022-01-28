@@ -26,6 +26,10 @@ firebase init
 
 reference [here](https://www.to-r.net/media/note-rss/) ...
 
+- Functions
+- Use an existing project
+- (project)
+
 ```bash
 
 ```
