@@ -17,8 +17,17 @@ sudo npm install -g firebase-tools
 ```
 
 ```bash
+firebase login
+```
+
+```bash
+firebase init
+```
+
+```bash
 
 ```
+
 
 ```bash
 
@@ -27,3 +36,13 @@ sudo npm install -g firebase-tools
 ```bash
 
 ```
+
+```bash
+
+```
+
+
+```bash
+
+```
+
