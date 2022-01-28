@@ -11,11 +11,11 @@ cd cloudfunctions
 ```
 
 ```bash
-sudo npm install -g npm@8.4.0
+npm install -g npm@8.4.0
 ```
 
 ```bash
-sudo npm install -g firebase-tools
+npm install firebase-tools
 ```
 
 ## Login Firebase account
@@ -55,7 +55,7 @@ yarn add express request-promise-native cors
 ```
 
 ```bash
-npm install -g request
+npm install request
 ```
 
 ## Execute following command after you have edited code.
