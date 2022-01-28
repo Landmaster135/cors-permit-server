@@ -51,6 +51,10 @@ yarn -v
 ```
 
 ```bash
+cd functions
+```
+
+```bash
 yarn add express request-promise-native cors
 ```
 
@@ -62,10 +66,6 @@ npm install request
 
 ```bash
 firebase deploy
-```
-
-```bash
-
 ```
 
 ```bash
