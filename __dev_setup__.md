@@ -1,6 +1,44 @@
 # Setup flow
 
+## if you have installed tools to macos.
+
+There is a [reference site](https://d.sonicjam.co.jp/post/52541343939).
+
+### Uninstall Node.js with this command.
+
+```bash
+lsbom -f -l -s -pf /var/db/receipts/org.nodejs.pkg.bom \
+| while read i; do
+  sudo rm /usr/local/${i}
+done
+sudo rm -rf /usr/local/lib/node \
+     /usr/local/lib/node_modules \
+     /var/db/receipts/org.nodejs.*
+```
+
+### Uninstall npm with this command.
+
+```bash
+sudo rm -rf ~/.npm
+```
+
+### Exit and Quit Terminal.
+
+exit and quit.
+
+### Delete these following files in "/usr/local/bin" directory.
+
+```bash
+node
+npm
+npx
+yarn
+yarnpkg
+```
+
 ## Install tools for develop functions.
+
+Install Node.js Package [here](https://nodejs.org/ja/).
 
 Open terminal.
 
