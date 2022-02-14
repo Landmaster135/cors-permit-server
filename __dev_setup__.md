@@ -50,6 +50,12 @@ mkdir cloudfunctions
 cd cloudfunctions
 ```
 
+Check firebase exists or not.
+
+```bash
+firebase --version
+```
+
 ```bash
 npm install -g npm@8.4.0
 ```
@@ -79,6 +85,11 @@ firebase init
 - y
 - Y
 - Firebase initialization complete!
+
+## If you clone repository, you must fix following files.
+
+- index.js
+- .eslintrc.js
 
 ## Setup modules for web-app.
 
@@ -117,6 +128,3 @@ firebase deploy
 ```bash
 
 ```
-
-
-

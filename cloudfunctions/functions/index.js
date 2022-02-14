@@ -37,7 +37,7 @@ const CLOUD_KEY_ALL = CLOUD_BASE_KEY + "/all";
 // const CLOUD_KEY_MAGAZINE = CLOUD_BASE_KEY + "/magazine";
 
 // コールドスタート対応: Cloud Functions に定義されたエンドポイントを1時間おきに叩くだけの関数
-const scheduledRun = functions.pubsub.schedule("0 * * * *")
+const scheduledRun = functions.pubsub.schedule("0 6,18 * * *")
     .timeZone("Asia/Tokyo")
     .onRun(async () => {
       await requestPromise(CLOUD_KEY_ALL);
